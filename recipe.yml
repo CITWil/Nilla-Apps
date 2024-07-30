@@ -151,7 +151,7 @@ stages:
     commands:
     - apt-get autoremove -y
     - apt-get clean
-    - lpkg --lock
+   # - lpkg --lock
 
   - name: fsguard
     type: fsguard
